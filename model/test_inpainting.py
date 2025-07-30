@@ -5,8 +5,11 @@ import numpy as np
 
 # --- SETUP ---
 # 1. Path to your fine-tuned model please use the path where your model is saved
+# if you run the training script, it will save the model in the finetuned_model directory.
 # example: model_path = "/home/user/liouville/finetuned_model"
-model_path = "../finetuned_model"
+# or you can use from Huggingface ClickNoow/LiouvilleSpiralPredict
+# example: model_path = "ClickNoow/LiouvilleSpiralPredict"
+model_path = "ClickNoow/LiouvilleSpiralPredict"
 
 # 2. The prompt you used during training
 prompt = "a photo of ulamsprial pattern"
