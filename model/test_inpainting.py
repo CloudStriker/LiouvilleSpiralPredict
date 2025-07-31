@@ -17,8 +17,9 @@ prompt = "a photo of ulamsprial pattern"
 # 3. Prepare an input image and mask for testing
 #    We will use one of the samples from your dataset
 #    Change these paths if necessary
-image_path = "../dataset/ulam_training_data/images/sample_0000.png"
-mask_path = "../dataset/ulam_training_data/masks/sample_0000.png"
+#    Please use full paths to the images and masks
+image_path = "/home/user/liouville/dataset/ulam_training_data/test/images/sample_0006.png"
+mask_path = "/home/user/liouville/dataset/ulam_training_data/test/masks/sample_0006.png"
 
 # --- INFERENCE PROCESS ---
 print(f"Loading model from: {model_path}")
