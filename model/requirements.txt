@@ -10,3 +10,6 @@ torchvision
 accelerate
 transformers
 diffusers
+PyWavelets
+scikit-learn
+matplotlib
